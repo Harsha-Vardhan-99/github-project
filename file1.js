@@ -15,7 +15,7 @@ app.use('/admin', adminRoutes);
 app.use(shopRoutes);
 //Changes made here
 app.use((req, res, next) => {
-    res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
+    res.status(404).sendFile(path.join(__dirname, 'views', '404.html')); // Dont accept changes
     console.log("done");
 });
 console.log("Iam not Groot")
