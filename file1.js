@@ -15,6 +15,7 @@ app.use('/admin', adminRoutes);
 app.use(shopRoutes);
 //new change for shiven branch commit 1
 //Changes made here
+//new change after merge before pull
 app.use((req, res, next) => {
     res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
     console.log("done");
