@@ -2,7 +2,7 @@ const path = require('path');
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const myName = 'Ritheek';
+const myName = 'Ritheek'; //yeh hai change
 const app = express();
 
 const adminRoutes = require('./routes/admin');
